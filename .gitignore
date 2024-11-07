@@ -148,3 +148,11 @@ python_scripts/checkpoints
 datas
 eval/__pycache__
 eval/gsm/__pycache__
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+**/*$py.class
+
+results
