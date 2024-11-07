@@ -146,3 +146,11 @@ python_scripts/Logs
 python_scripts/checkpoints
 
 datas
+results
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+**/*$py.class
+
