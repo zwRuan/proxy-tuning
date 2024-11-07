@@ -201,7 +201,7 @@ def load_dexperts_model_and_tokenizer(
     tokenizer = AutoTokenizer.from_pretrained(base_model_name_or_path, use_fast_tokenizer=use_fast_tokenizer)
     tokenizer = add_pad_token(tokenizer, padding_side)
     if not antiexpert_model_name_or_path:
-        antiexpert_model_name_or_path = 'meta-llama/Llama-2-7b-hf'
+        antiexpert_model_name_or_path = 'meta-math/MetaMath-7B-V1.0'
 
     model = DExpertsLlama(
         base_model_name_or_path=base_model_name_or_path,
